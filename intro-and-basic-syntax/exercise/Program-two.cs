@@ -10,7 +10,7 @@ namespace Problem_two
             var width = double.Parse(Console.ReadLine());
 			//program receives height input from the user
             var height = double.Parse(Console.ReadLine());
-			//here we calculate the area using the input from the user
+			//here we calculate the area using the input given from the user
             var area = width * height;
 			//finally print the area result on the console
             Console.WriteLine($"{area:f2}");
