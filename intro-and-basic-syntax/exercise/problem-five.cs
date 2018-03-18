@@ -6,13 +6,15 @@ namespace Problem5
     {
         static void Main(string[] args)
         {
+            //We receive the input data
             var name = Console.ReadLine();
             var currentHealth = int.Parse(Console.ReadLine());
             var maxHealth = int.Parse(Console.ReadLine());
             var currentEnergy = int.Parse(Console.ReadLine());
             var maxEnergy = int.Parse(Console.ReadLine());
-
+            // Print the name
             Console.WriteLine($"Name: {name}");
+            //Print the health
             Console.Write("Health: |");
             for (int i = 1; i <= currentHealth; i++)
             {
@@ -24,7 +26,7 @@ namespace Problem5
             }
             Console.Write("|");
             Console.WriteLine();
-
+            // Print the energy
             Console.Write("Energy: |");
             for (int i = 1; i <= currentEnergy; i++)
             {
