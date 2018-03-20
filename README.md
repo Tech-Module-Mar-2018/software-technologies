@@ -12,8 +12,12 @@ examples below for the appropriate formatting.
 
 | Input | Output |
 |-------|--------|
-| 2     |        |
-| 7     | 14.00  |
+| 12
+433
+1
+5331
+    |  0012 0433 0001 5331      |
+
 
 ### Problem 3. Miles to Kilometers
 
