@@ -12,7 +12,7 @@ examples below for the appropriate formatting.
 
 | **Input** | **Output** |
 | --- | --- |
-| 12 | 0012 0433 0001 5331 |
+| 12  433 | 0012 0433 0001 5331 |
 | 433 |                     
 | 1 | 
 | 5331 | 
