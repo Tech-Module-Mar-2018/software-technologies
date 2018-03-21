@@ -1,4 +1,4 @@
-﻿//CONFIRMED from TeoLazarov
+﻿//CONFIRMED from tedoo
 using System;
 
 namespace Problem5
