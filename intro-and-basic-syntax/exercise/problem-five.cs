@@ -1,4 +1,4 @@
-﻿//CONFIRMED from teolazarov
+﻿//CONFIRMED from TeoLazarov
 using System;
 
 namespace Problem5
