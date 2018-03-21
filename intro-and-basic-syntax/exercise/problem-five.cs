@@ -7,20 +7,20 @@ namespace Problem5
         static void Main(string[] args)
         {
             //We receive the input data
-            var name = Console.ReadLine();
-            var currentHealth = int.Parse(Console.ReadLine());
-            var maxHealth = int.Parse(Console.ReadLine());
-            var currentEnergy = int.Parse(Console.ReadLine());
-            var maxEnergy = int.Parse(Console.ReadLine());
+            var currentName = Console.ReadLine();
+            var Health = int.Parse(Console.ReadLine());
+            var currenMaxHealth = int.Parse(Console.ReadLine());
+            var energy = int.Parse(Console.ReadLine());
+            var currentMaxEnergy = int.Parse(Console.ReadLine());
             // Print the name
-            Console.WriteLine($"Name: {name}");
+            Console.WriteLine($"Name: {currentName}");
             //Print the health
             Console.Write("Health: |");
-            for (int i = 1; i <= currentHealth; i++)
+            for (int i = 1; i <= Health; i++)
             {
                 Console.Write("|");
             }
-            for (int i = 1; i <= maxHealth - currentHealth; i++)
+            for (int i = 1; i <= currenMaxHealth - Health; i++)
             {
                 Console.Write(".");
             }
@@ -28,11 +28,11 @@ namespace Problem5
             Console.WriteLine();
             // Print the energy
             Console.Write("Energy: |");
-            for (int i = 1; i <= currentEnergy; i++)
+            for (int i = 1; i <= energy; i++)
             {
                 Console.Write("|");
             }
-            for (int i = 1; i <= maxEnergy - currentEnergy; i++)
+            for (int i = 1; i <= currentMaxEnergy - energy; i++)
             {
                 Console.Write(".");
             }
