@@ -71,7 +71,7 @@ Write a program, which **displays information** about a video game character. Yo
 
 |        Input       |                                Output                               |
 |:------------------:|:-------------------------------------------------------------------:|
-| Mayro  5  10 9 10  | Name: Mayro Health: \|\|\|\|\|\|.....\| Energy: \|\|\|\|\|\|\|\|\|\|.\|               |
+| Mayro  5  10 9 10  | Name: Mayro\ Health: \|\|\|\|\|\|.....\|\ Energy: \|\|\|\|\|\|\|\|\|\|.\|               |
 | Bauser 10 10 10 10 | Name: Bauser Health: \|\|\|\|\|\|\|\|\|\|\|\| Energy: \|\|\|\|\|\|\|\|\|\|\|\|              |
 | Loogi 8 20 2 14    | Name: Loogi Health: \|\|\|\|\|\|\|\|\|............\| Energy: \|\|\|............\| |
 | Toad 0 5 0 10      | Name: Toad Health: \|.....\| Energy: \|..........\|                     |
