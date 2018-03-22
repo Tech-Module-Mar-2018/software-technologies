@@ -1,4 +1,5 @@
-﻿using System;
+﻿//CONFIRMED from ralijordanova
+using System;
 
 namespace Problem_two
 {
@@ -6,7 +7,7 @@ namespace Problem_two
     {
         static void Main(string[] args)
         {
-			//program receives width input from the user
+			//program receives width input from the user 
             double widthDouble = double.Parse(Console.ReadLine()); //changed variable
 			//program receives height input from the user
             var height = double.Parse(Console.ReadLine());
