@@ -42,8 +42,8 @@ Note: **1mile == 1.60934 kilometers**
 | 1       | 1.61   |
 | 52.1113 | 83.86  |
 
-### Problem 4.
- |
+### Problem 4. Beverage Labels
+
 Write a program, which reads a food product **name** , **volume** , **energy content**** per 100ml **and** sugar content per 100ml **. Calculate the** energy **and** sugar content **for the** given volume** and print them on the console in the following format:
 
 - Name – as per the input
@@ -64,3 +64,14 @@ Write a program, which reads a food product **name** , **volume** , **energy con
 | **Input** | **Output** |
 | --- | --- |
 | Nuka-Cola Quantum350600140 | 350ml Nuka-Cola Quantum:2100kcal, 490g sugars |
+
+### Problem 5. Character Stats
+
+Write a program, which **displays information** about a video game character. You will receive their **name**, **current health**, **maximum health**, **current energy** and **maximum energy** on separate lines. The **current** values will **always** be valid (**equal or lower** than their respective **max** values). Print them in the format as per the examples.
+
+|        Input       |                                Output                               |
+|:------------------:|:-------------------------------------------------------------------:|
+| Mayro  5  10 9 10  | Name: Mayro Health: ||||||.....| Energy: ||||||||||.|               |
+| Bauser 10 10 10 10 | Name: Bauser Health: |||||||||||| Energy: ||||||||||||              |
+| Loogi 8 20 2 14    | Name: Loogi Health: |||||||||............| Energy: |||............| |
+| Toad 0 5 0 10      | Name: Toad Health: |.....| Energy: |..........|                     |
